@@ -62,19 +62,7 @@ flowchart LR
     style AS fill:#ffcccc,stroke:#b30000,stroke-width:2px
     style LO fill:#dab6ff,stroke:#5e239d,stroke-width:2px
 
-## 🧩 SEM Model — Circular Conceptual Diagram (PLS-SEM)
 
-```mermaid
-mindmap
-  root((Learning Outcome))
-    Course Information
-      Content Design
-      Content Delivery
-    Content Design
-      Assessment
-    Content Delivery
-      Assessment
-    Assessment
 
 
 
