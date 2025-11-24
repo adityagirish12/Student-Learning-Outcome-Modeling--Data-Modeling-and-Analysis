@@ -50,8 +50,11 @@ flowchart LR
     CI[Course Information] --> CD[Content Design]
     CI --> DL[Content Delivery]
     CD --> AS[Assessment]
-    DL --> AS
-    AS --> LO[Learning Outcome]
+    CD --> LO[Learning Outcome]
+    DL --> LO
+    AS --> LO
+    CI --> LO
+    
 
     style CI fill:#b3d1ff,stroke:#003d99,stroke-width:2px
     style CD fill:#d2e8b6,stroke:#4f772d,stroke-width:2px
